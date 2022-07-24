@@ -55,6 +55,10 @@
     visibility: hidden;
 }
 
+textarea {
+    resize:none;
+}
+
 .formulario .btn {
     background-color: #3CCC87;
     color: #FFF;
