@@ -3,10 +3,10 @@
 const form = document.getElementById('form')
 const campos = document.querySelectorAll('.inputs')
 
-form.addEventListener('submit', function (event) {
+form.addEventListener('submit', (event) => {
     event.preventDefault();
         
-    campos.forEach(function(inputs, small) {
+    campos.forEach((inputs) => {
         if(inputs.value === '') {
 
             inputs.classList.add('erro')
