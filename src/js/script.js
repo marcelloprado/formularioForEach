@@ -3,7 +3,7 @@
 const form = document.getElementById('form')
 const campos = document.querySelectorAll('.inputs')
 
-form.addEventListener('submit', event => {
+form.addEventListener('input', event => {
     event.preventDefault();
         
     campos.forEach(inputs => {
